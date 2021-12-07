@@ -1,2 +1,1 @@
-name = input("Enter a name :")
-print(f"Hello, {name}")
+print('Hello this is Python file')
