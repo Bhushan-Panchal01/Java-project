@@ -1,10 +1,10 @@
 pipeline{
     agent any
     stages{
-        stage('Running'){
+        stage('build'){
             steps{
                 sh """
-                    python3 sample2.py
+                    docker build -t pythonimg:1.0 .
                 """
             }
         }
