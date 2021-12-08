@@ -1,3 +1,3 @@
 FROM python:3.7.10
-
-CMD ["python3","-c","sample2.py"]
+ADD sample2.py ./
+CMD ["python3", "./sample2.py"]
